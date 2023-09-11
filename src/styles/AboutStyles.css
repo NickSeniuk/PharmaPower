@@ -1,0 +1,63 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 3em auto;
+}
+.aboutCtn {
+  position: relative;
+}
+.aboutTitle {
+  position: absolute;
+  font-size: 5rem;
+  top: 3rem;
+  left: 3em;
+  z-index: 10;
+}
+
+.missionTitle {
+  position: absolute;
+  font-size: 5rem;
+  top: 41rem;
+  right: 5em;
+  z-index: 10;
+}
+
+.advantagesTitle {
+  position: absolute;
+  font-size: 5rem;
+  top: 79rem;
+  left: 3em;
+  z-index: 10;
+}
+
+.blockBody {
+  display: flex;
+  gap: 5rem;
+}
+
+.textBlock {
+  max-width: 600px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.buttonCtn {
+  position: absolute;
+  bottom: 2rem;
+  right: 10em;
+}
+
+.aboutButton button {
+  background-color: #5783db;
+  padding: 10px 15px;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 50px;
+  border-color: #5783db;
+}
+
+.aboutButton button:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}

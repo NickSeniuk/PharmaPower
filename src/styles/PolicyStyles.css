@@ -1,0 +1,36 @@
+.policyCtn {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+/* .policyBody {
+  max-width: 1000px;
+  margin: 0 auto;
+} */
+
+.policyFooter {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeStamps {
+  font-style: italic;
+}
+
+.returnBtn button {
+  background-color: #5783db;
+  padding: 10px 15px;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 50px;
+  border-color: #5783db;
+}
+
+.returnBtn button:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
